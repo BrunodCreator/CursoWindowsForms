@@ -16,5 +16,20 @@ namespace CursoWindowsForms
         {
             InitializeComponent();
         }
+
+        private void HelloWord_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_Sair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Btn_ModificaLabel_Click(object sender, EventArgs e)
+        {
+            Lbl_Titulo.Text = Txt_ConteudoLabel.Text;
+        }
     }
 }
